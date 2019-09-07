@@ -1,0 +1,2 @@
+# wiki_crawler
+This code creates a graph of wikipedia pages based on the users that contribuited to those page's content in the period of five years since August of 2019. You should create a 'pages.txt' file with all the wanted pages and the program will save all the data collected inside the 'Page_revision.json' and will also save the names of the next pages of the graph inside the file 'Pages_to_visit.txt', just in case.
