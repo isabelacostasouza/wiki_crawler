@@ -235,7 +235,7 @@ def main(list_pages):
         visited_pages.append(pages_to_visit[len(pages_to_visit) - 1])
 
         #remove the page just collected from the 'pages_to_visit' list
-        pages_to_visit.remove(pages_to_visit[len(pages_to_visit) - 1])
+        pages_to_visit.remove(page_name)
 
         #save the pages that still have to be visited inside the 'Pages_to_visit.txt' file
         save_pages_to_visit(pages_to_visit)
